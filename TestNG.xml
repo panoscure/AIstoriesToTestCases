@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test_Suite">
+
+    <listeners>
+        <listener class-name="org.testng.reporters.XMLReporter"></listener>
+        <listener class-name="com.intralot.qa.automation.test.utilities.extensions.listeners.TestListener"></listener>
+    </listeners>
+
+    <test name="Test" preserve-order="true">
+<!--        <classes>-->
+<!--            <class name="">-->
+
+
+<!--            </class>-->
+<!--        </classes>-->
+    </test>
+
+</suite>

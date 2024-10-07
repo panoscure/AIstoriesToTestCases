@@ -1,0 +1,11 @@
+com\intralot\qa\automation\test\suites\mobile\LoginTest.class
+com\intralot\qa\automation\test\suites\desktopweb\openChatGPTGetResponse.class
+com\intralot\qa\automation\test\suites\desktopweb\LoginTest.class
+com\intralot\qa\automation\test\suites\api\GetActiveDrawsTest.class
+com\intralot\qa\automation\base\test\BaseSetupForApplication.class
+com\intralot\qa\automation\base\test\BaseSetupForApi.class
+com\intralot\qa\automation\test\utilities\extensions\listeners\TestListener.class
+com\intralot\qa\automation\test\suites\api\ResetAllLimitsTest.class
+com\intralot\qa\automation\base\test\BaseSetup.class
+com\intralot\qa\automation\test\suites\api\UpdateProfileAfterRegistrationTest.class
+com\intralot\qa\automation\test\suites\api\ResetCoolingOffPeriodTest.class

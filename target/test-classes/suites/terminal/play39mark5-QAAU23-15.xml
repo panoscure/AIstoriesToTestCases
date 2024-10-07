@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAAU23_15_39mark5System">
+    <test name="QAAU23_15_39mark5System">
+        <classes>
+            <class name="com.intralot.qa.automation.base.test.BaseSetupForApplication"/>
+            <class name="com.intralot.qa.automation.test.suites.terminal.play.play39Mark5">
+                <methods>
+                    <include name="QAAU23_15"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

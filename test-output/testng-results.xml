@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<b><p class="testOutput" style="color:#0033FF; font-size:1em;">30/11/2023 11:26:04 :  QAAU23_39892 has passed.</p></b>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-11-30T11:25:28 EET" name="Login_DesktopWeb_Suite" finished-at="2023-11-30T11:26:18 EET" duration-ms="50072">
+    <groups>
+    </groups>
+    <test started-at="2023-11-30T11:25:28 EET" name="Login Desktop Web" finished-at="2023-11-30T11:26:18 EET" duration-ms="50072">
+      <class name="com.intralot.qa.automation.test.suites.terminal.loginNegative">
+        <test-method is-config="true" signature="initSetup(org.testng.ITestContext)[pri:0, instance:com.intralot.qa.automation.test.suites.terminal.loginNegative@6050462a]" started-at="2023-11-30T11:25:28 EET" name="initSetup" finished-at="2023-11-30T11:25:28 EET" duration-ms="140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@30cf61ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method is-config="true" signature="setUpXmlParams()[pri:0, instance:com.intralot.qa.automation.test.suites.terminal.loginNegative@6050462a]" started-at="2023-11-30T11:25:28 EET" name="setUpXmlParams" finished-at="2023-11-30T11:25:47 EET" duration-ms="18781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpXmlParams -->
+        <test-method signature="QAAU23_39892()[pri:1, instance:com.intralot.qa.automation.test.suites.terminal.loginNegative@6050462a]" started-at="2023-11-30T11:25:47 EET" name="QAAU23_39892" description="Login User" finished-at="2023-11-30T11:26:03 EET" duration-ms="15579" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<b><p class="testOutput" style="color:#0033FF; font-size:1em;">30/11/2023 11:26:04 :  QAAU23_39892 has passed.</p></b>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- QAAU23_39892 -->
+        <test-method is-config="true" signature="updateJiraTc(org.testng.ITestResult)[pri:0, instance:com.intralot.qa.automation.test.suites.terminal.loginNegative@6050462a]" started-at="2023-11-30T11:26:04 EET" name="updateJiraTc" finished-at="2023-11-30T11:26:18 EET" duration-ms="14063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                  <![CDATA[[TestResult name=QAAU23_39892 status=SUCCESS method=LoginTestVas.QAAU23_39892()[pri:1, instance:com.intralot.qa.automation.test.suites.terminal.loginNegative@6050462a] output=<b><p class="testOutput" style="color:#0033FF; font-size:1em;">30/11/2023 11:26:04 :  QAAU23_39892 has passed.</p></b>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateJiraTc -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.intralot.qa.automation.test.suites.terminal.loginNegative@6050462a]" started-at="2023-11-30T11:26:18 EET" name="tearDown" finished-at="2023-11-30T11:26:19 EET" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.intralot.qa.automation.test.suites.terminal.loginNegative -->
+    </test> <!-- Login Desktop Web -->
+  </suite> <!-- Login_DesktopWeb_Suite -->
+</testng-results>

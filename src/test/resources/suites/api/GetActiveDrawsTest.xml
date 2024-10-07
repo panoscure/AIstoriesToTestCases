@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <xml version="1.0" encoding="UTF-8">
+
+<suite name="Get_Active_Draws_Suite"  parallel="tests"  thread-count="1">-->
+<suite name="Get_Active_Draws_Suite">
+    <parameter name="game" value="iLottery"/>
+
+    <test name="Get Active Draws" preserve-order="true">
+        <classes>
+            <class name="com.intralot.qa.automation.test.suites.api.GetActiveDrawsTest">
+
+                <!--                <methods>-->
+                <!--                    <include name="checkHomepageMainEventsStruct" />-->
+                <!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+
+</suite>

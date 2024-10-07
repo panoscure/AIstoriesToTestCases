@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <xml version="1.0" encoding="UTF-8">
+
+<suite name="Reset_CoolOff_Period_Suite"  parallel="tests"  thread-count="1">-->
+<suite name="Reset_CoolOff_Period_Suite">
+
+    <listeners>
+        <listener class-name="org.testng.reporters.XMLReporter"></listener>
+        <listener class-name="com.intralot.qa.automation.test.utilities.extensions.listeners.TestListener"></listener>
+    </listeners>
+
+    <parameter name="game" value="iLottery"/>
+
+    <test name="Reset Cool Off Period" preserve-order="true">
+        <classes>
+            <class name="com.intralot.qa.automation.test.suites.api.ResetCoolingOffPeriodTest">
+            </class>
+        </classes>
+    </test>
+
+</suite>
